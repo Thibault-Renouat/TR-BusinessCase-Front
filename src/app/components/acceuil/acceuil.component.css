@@ -1,0 +1,38 @@
+h1{
+
+  color: lightgrey;
+
+
+}
+
+
+h1+p{
+
+  color: lightgrey;
+}
+
+#titre-header{
+
+  width: 500px;
+  height: auto;
+  text-align: center;
+
+
+}
+
+footer a{
+
+  color: lightgrey;
+}
+
+
+.card{
+
+  margin-right: 20px;
+
+}
+
+#selects{
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,19 @@
+aside{
+  width: 240px;
+  height: 600px;
+}
+
+#divPhotos{
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  /*height: 400px;*/
+  margin-right: 75px;
+  margin-left: 75px;
+}
+
+
+.imgsDetail{
+
+margin-bottom: 20px;
+}
