@@ -18,6 +18,9 @@ export class AcceuilComponent implements OnInit {
     this.annonces= this.annonceService.getAllAnnonces()
     console.log(`les annonces importées: `);
     console.log(this.annonces);
+    console.log(`l'id de l'annonce 2: `);
+    console.log(typeof this.annonces[1].id);
+
   }
 
 }

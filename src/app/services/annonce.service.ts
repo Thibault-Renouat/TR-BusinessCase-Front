@@ -21,4 +21,12 @@ annonces = [
     console.log(this.annonces[0].photos);
   }
 
+  getOneAnnonceById(id:number):Annonce{
+    console.log(this.annonces.filter(fn => fn.id === id )[0]);
+
+    return this.annonces.filter(fn => fn.id === id )[0];
+
+
+  }
+
 }

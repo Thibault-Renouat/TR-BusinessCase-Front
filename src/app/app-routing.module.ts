@@ -14,6 +14,7 @@ const routes: Routes = [
   { path: 'mentions-legales', component: MentionsLegalesComponent},
   { path: 'confidientialite', component: PolitiqueConfComponent},
   { path: 'annonce-detaillee', component: AnnonceDetailleeComponent},
+  { path: 'annonce-detaillee/:id', component: AnnonceDetailleeComponent},
 
 ];
 

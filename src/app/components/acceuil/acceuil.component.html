@@ -212,12 +212,16 @@
         <p routerLink="/annonce-detaillee" class="card-text"><small class="text-muted">lien tempo vers annonce détaillée: id {{annonces[0].id}}</small></p>
       </div>
     </div>
+
+<!--  Carte qui utilisera le rooting avec paramètre dans l'url  -->
+
     <div class="card">
-      <img src="../../../assets/img/image_vitrine_140x100.png" class="card-img-top" alt="...">
+      <img src="../../../assets/img/{{annonces[1].photos[0]}}" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">{{annonces[1].titre}}</h5>
+        <p class="card-text">{{annonces[1].descrCourte}}</p>
+        <p class="card-text">REF:  {{annonces[1].id}}</p>
+        <p [routerLink]="['/annonce-detaillee', annonces[1].id]" class="card-text"><small class="text-muted">lien tempo vers annonce détaillée: id {{annonces[1].id}}</small></p>
       </div>
     </div>
     <div class="card">
